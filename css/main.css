@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: arial, 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.web{
+    background-color: #014E56;
+
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.header__logo{
+ margin-top: 5px;
+}
+
+.nav__list{
+    display: flex;
+    margin-right: 520px;
+    list-style-type: none;
+}
+
+.nav__item{
+    margin-left: 40px;
+    font-size: 18px;
+}
+.nav__link{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav__link:hover{
+    color: #F67E7E;
+    transition: 1.4s;
+}
+
+.basic__link{
+    display: block;
+    width: 200px;
+     height: 50px;
+    padding: 9px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 5px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 24px;
+    text-decoration: none;
+}
+.basic__link:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 2s;
+}
+
+.hero{
+    display: flex;
+    margin-top: 90px;
+}
+
+.hero__text{
+    font-size: 90px;
+    width: 635px;
+    color: #fff;
+}
+
+.hero__text--wrapp{
+    color: #F67E7E;
+}
+
+.hero__word{
+    width: 400px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.line{
+    width: 50px;
+    height: 4px;
+    margin-top: 40px;
+    background-color: #79C8C7;
+}
+
+.step{
+    width: 1250px;
+    display: flex;
+    margin-top: -40px;
+}
+
+.step__text{
+    width:445px;
+    color: #fff;
+    margin-top: 150px;
+    font-size: 48px;
+}
+
+main{
+ background-color: #012F34;   
+}
+
+.step__list{
+    margin-top: 150px;
+    list-style-type: none;
+}
+
+.step__item{
+    margin-bottom: 32px;
+}
+
+.step__subject{
+    color: #F67E7E;
+    margin-top: -70px;
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+.step__word{
+    color: #fff;
+    width: 455px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+.step__img{
+    margin-right: 30px;
+}
+
+.steps{
+    background-color: #004047FF;
+}
+ 
+.steps__list{
+    display: flex;
+    margin-left: 0px;
+    list-style-type: none;
+}
+
+.steps__item::before{
+    display: block;
+    width: 67px;
+    height: 56px;
+    background-image: url(../images/“.svg);
+    content: '';
+    margin-left: 180px;
+    margin-bottom: -30px;
+}
+
+.steps__text{
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 70px;
+}
+
+.steps__text>span{
+    color: #79C8C7FF;
+}
+
+.steps__word{
+    width: 350px;
+    text-align: center;
+    color: #fff;
+}
+
+.steps__subject{
+    text-align: center;
+    color: #79C8C7;
+}
+
+.steps__word{
+   margin-left:40px ;
+}
+
+.steps__img{
+    margin-left: 170px;
+}
+
+.great{
+    display: flex;
+
+    background-color: #F67E7E;
+    margin-top: -16px;
+}
+
+.text{
+    margin-left: 60px;
+    color: #012F34;
+    font-size: 40px;
+}
+
+.great__link{
+    display: block;
+    width: 200px;
+    height: 50px;
+   padding: 9px;
+   text-align: center;
+   color: #012F34;
+   font-size: 18px;
+   margin-top: 5px;
+   border: 2px solid #012F34;
+    box-sizing: border-box;
+    border-radius: 24px;
+   margin-left: 590px;
+   margin-top: 30px;
+   text-decoration: none;
+}
+
+.great__link:hover{
+    background-color: #012F34;
+    color: #fff;
+    transition: 2s;
+}
+
+.footer{
+    padding-left: 165px;
+    padding-right: 165px;
+    background-color: #002529;
+  }
+  .footer__titel{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.footer__inner{
+    margin-top: 48px;
+  }
+
+  .footer__list{
+    margin-left: -90px;
+    margin-top: 25px;
+    margin-bottom: 55px;
+    display: flex;
+    list-style-type: none;
+  }
+  .footer__item{
+    margin-left: 40px;
+  }
+  .footer__link{
+      color: #fff;
+      font-size: 18px;
+    text-decoration: none;
+  }
+
+.footer__link:hover{
+    color: #F67E7E;
+    transition: 1.4s;
+}
+
+  .other-footer-div {
+    margin-top: 48px;
+  }
+  .footer__error{
+    list-style-type: none;
+  }
+  .error__item{
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+  .footer__iconka{
+    margin-top: 48px;
+  }
+
+  .iconka__list{
+    display: flex;
+    margin-bottom: 51px;
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+    list-style-type: none;
+}
+
+  .iconka__item{
+    margin-left: 20px;
+  }
+
+.lorem{
+    color: #fff;
+}
